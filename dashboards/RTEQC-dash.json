@@ -141,7 +141,7 @@
                   "field": "Depth",
                   "fixed": "dark-green"
                 },
-                "opacity": 0.4,
+                "opacity": 0.7,
                 "rotation": {
                   "fixed": 0,
                   "max": 360,
