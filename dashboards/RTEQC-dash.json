@@ -343,7 +343,8 @@
             "server": "streets"
           },
           "name": "Layer 0",
-          "type": "esri-xyz"
+          "noRepeat": false,
+          "type": "default"
         },
         "controls": {
           "mouseWheelZoom": true,
@@ -1164,8 +1165,8 @@
     "list": [
       {
         "current": {
-          "text": "2013p613797",
-          "value": "2013p613797"
+          "text": "2014p051675",
+          "value": "2014p051675"
         },
         "datasource": {
           "type": "yesoreyeram-infinity-datasource",
@@ -1203,12 +1204,12 @@
     ]
   },
   "time": {
-    "from": "2013-08-16T01:24:30.106Z",
-    "to": "2013-08-17T00:22:47.590Z"
+    "from": "2014-01-20T02:46:11.318Z",
+    "to": "2014-01-21T02:43:17.866Z"
   },
   "timepicker": {},
   "timezone": "",
-  "title": "RTEQC_dash Copy Copy",
-  "uid": "8f129de9-19c0-4f7e-b694-84024d578ccf",
-  "version": 5
+  "title": "RTEQC_dash Copy Copy Copy",
+  "uid": "45b6f9fc-4c84-4032-b066-329cee7d4924",
+  "version": 1
 }
