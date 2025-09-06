@@ -18,7 +18,7 @@
   "editable": true,
   "fiscalYearStartMonth": 0,
   "graphTooltip": 0,
-  "id": 2,
+  "id": 1,
   "links": [],
   "panels": [
     {
@@ -327,6 +327,42 @@
                 "value": "none"
               }
             ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Detection threshold"
+            },
+            "properties": [
+              {
+                "id": "unit",
+                "value": "none"
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Detection value"
+            },
+            "properties": [
+              {
+                "id": "unit",
+                "value": "none"
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Picks"
+            },
+            "properties": [
+              {
+                "id": "unit",
+                "value": "none"
+              }
+            ]
           }
         ]
       },
@@ -442,6 +478,26 @@
               "selector": "Resource ID",
               "text": "Event ID",
               "type": "string"
+            },
+            {
+              "selector": "Location Method ID",
+              "text": "Location method",
+              "type": "string"
+            },
+            {
+              "selector": "N Picks",
+              "text": "Picks",
+              "type": "number"
+            },
+            {
+              "selector": "Detection value",
+              "text": "Detection value",
+              "type": "number"
+            },
+            {
+              "selector": "Detection threshold",
+              "text": "Detection threshold",
+              "type": "number"
             }
           ],
           "datasource": {
@@ -1204,12 +1260,12 @@
     ]
   },
   "time": {
-    "from": "2014-01-20T02:46:11.318Z",
-    "to": "2014-01-21T02:43:17.866Z"
+    "from": "2014-01-20T02:13:27.586Z",
+    "to": "2014-01-20T18:19:18.450Z"
   },
   "timepicker": {},
   "timezone": "",
   "title": "RTEQC_dash Copy Copy Copy",
   "uid": "45b6f9fc-4c84-4032-b066-329cee7d4924",
-  "version": 1
+  "version": 2
 }
